@@ -1,6 +1,8 @@
+import { Potentiometer } from "./components/Potentiometer/Potentiometer";
+
 function App() {
   return (
-    <h1>Hello World</h1>
+    <Potentiometer />
   );
 }
 
