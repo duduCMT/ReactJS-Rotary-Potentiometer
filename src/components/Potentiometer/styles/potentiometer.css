@@ -1,11 +1,12 @@
 .potentiometer{
-  display: inline-flex;
-  position: relative; 
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .potentiometer img {
-  height: 300px;
-  width: 300px;
+  width: 100%;
+  height: 100%;
   position: absolute;
 
   -webkit-user-drag: none;

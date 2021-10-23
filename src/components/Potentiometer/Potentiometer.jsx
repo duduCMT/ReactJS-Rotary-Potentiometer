@@ -6,52 +6,57 @@ import knopImg from './assets/Knop.svg'
 import './styles/potentiometer.css'
 
 const Knop = styled.img`
-  transform: rotate(${(props) => props.rotation}rad);
+  transform: rotate(${(props) => props.rotation}deg);
 `
+const fistAnglePosition = 140;
+const lastAnglePosition = 40;
 
-const minAngle = 2.47//97449305753796;
-const maxAngle = 0.65//72696077885278;
-
-function map_range(low1, high1, low2, high2, value) {
+function mapRange(low1, high1, low2, high2, value) {
   return low2 + (high2 - low2) * (value - low1) / (high1 - low1);
 }
 
-export function Potentiometer({onChange, minValue, maxValue}) {
-  const [rotation, setRotation] = useState(minAngle);
+let oldAngle = 0;
+
+export function Potentiometer({ onChange, minValue, maxValue }) {
+  const [rotation, setRotation] = useState(fistAnglePosition);
   const knopElement = useRef(null);
-  let oldAngle = 0;
 
   function getCenter(element) {
     const { left, top, width, height } = element.getBoundingClientRect();
     return { x: left + width / 2, y: top + height / 2 }
   }
 
+  function convertedToRealAngle(angle) {
+    if (oldAngle >= fistAnglePosition && oldAngle < 180) {
+      return parseInt(mapRange(140, 180, 0, 40, angle));
+    } else if (oldAngle <= lastAnglePosition && oldAngle < 180) {
+      return parseInt(mapRange(-180, 40, 40, 260, angle));
+    }
+  }
+
   useEffect(() => {
-    let value = 0;
-    onChange(value);
+    let realAngle = convertedToRealAngle(oldAngle);
+    let value = mapRange(0, 260, minValue, maxValue, realAngle);
+    onChange({ realAngle, value });
   })
 
   function onMouseMovePotentiometer(event) {
-    if(event.buttons == 1){
+    if (event.buttons === 1) {
       let knopCenter = getCenter(knopElement.current);
       let mouseX = event.clientX// - rect.left;
       let mouseY = event.clientY// - rect.top;
 
-      const angle = Math.atan2(mouseY - knopCenter.y, mouseX - knopCenter.x).toFixed(2);
+      const angle = (Math.atan2(mouseY - knopCenter.y, mouseX - knopCenter.x) * (180 / Math.PI)).toFixed(2);
 
-      if((angle > oldAngle + 0.10 || angle < oldAngle - 0.10 ) && 
-        (angle > minAngle && angle < Math.PI) || (angle < maxAngle && angle < Math.PI)){
+      if ((angle >= fistAnglePosition && angle < 180) || (angle <= lastAnglePosition && angle > -180)) {
         oldAngle = angle
         setRotation(angle)
       }
-      //console.log(oldAngle)
     }
   }
 
-  
-
   return (
-    <div className="potentiometer" 
+    <div className="potentiometer"
       onMouseMove={onMouseMovePotentiometer}
     >
       <img src={bodyImg} alt="" />
