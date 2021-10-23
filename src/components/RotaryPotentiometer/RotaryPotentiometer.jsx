@@ -18,7 +18,7 @@ const fistAnglePosition = 140;
 const lastAnglePosition = 40;
 let oldAngle = fistAnglePosition;
 
-export function Potentiometer({ onChange, minValue, maxValue }) {
+export function RotaryPotentiometer({ onChange, minValue, maxValue }) {
   const [rotation, setRotation] = useState(fistAnglePosition);
   const knopElement = useRef(null);
 

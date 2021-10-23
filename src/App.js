@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Potentiometer } from "./components/Potentiometer/Potentiometer";
+import { RotaryPotentiometer } from "./components/RotaryPotentiometer/RotaryPotentiometer";
 import './styles/app.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="container">
-      <Potentiometer
+      <RotaryPotentiometer
         minValue={0.0}
         maxValue={5.0}
         onChange={(obj) => {
