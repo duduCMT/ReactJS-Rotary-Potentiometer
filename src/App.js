@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { RotaryPotentiometer } from "./components/RotaryPotentiometer/RotaryPotentiometer";
+import RotaryPotentiometer from "./components/RotaryPotentiometer";
 import './styles/app.css'
 
 function App() {
