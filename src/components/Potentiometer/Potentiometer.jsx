@@ -7,14 +7,15 @@ import { getCenter } from './CalcPosition';
 
 import './styles/potentiometer.css'
 
-const Knop = styled.img`
-  transform: rotate(${(props) => props.rotation}deg);
+const Knop = styled.img.attrs(({ rotation }) => ({
+  style: {
+    transform: `rotate(${rotation}deg)`
+  }
+}))`
 `
+
 const fistAnglePosition = 140;
 const lastAnglePosition = 40;
-const virtualFistAnglePosition = fistAnglePosition + 5;
-const virtualLastAnglePosition = lastAnglePosition - 3;
-
 let oldAngle = fistAnglePosition;
 
 export function Potentiometer({ onChange, minValue, maxValue }) {
@@ -55,7 +56,7 @@ export function Potentiometer({ onChange, minValue, maxValue }) {
       angle = realAngle;
       onChange({ angle, realAngle, value });
     }
-  }, [rotation])
+  }, [rotation, onChange, minValue, maxValue])
 
   function onMouseMovePotentiometer(event) {
     if (event.buttons === 1) {
