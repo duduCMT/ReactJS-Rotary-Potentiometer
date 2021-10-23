@@ -5,21 +5,20 @@
 
 ## 📸 Preview
 
-  <img src=".github/assets/img/preview01.gif" 
-    style="height: 300px; display: block;
-      margin-left: auto;
-      margin-right: auto;">
+<p align="center">
+  <img src=".github/assets/img/preview01.gif" style="height: 300px;" />
+</p>
+
+## 📌 Nota importante!
+Este componente não possui uma fácil implementação em projetos de terceiros usando gerenciadores de pacotes. **Inicialmente, esse repositório funcionará apenas para portfólio e exposição da ideia.**
 
 ## 📝 Descrição
 
-Componente para aplicações ReactJS que simula um [potenciometro](https://pt.wikipedia.org/wiki/Potenci%C3%B4metro) rotativo virtual. Suporta eventos de mouse e touch até o momento.
+Componente para aplicações ReactJS que simula um [potenciômetro](https://pt.wikipedia.org/wiki/Potenci%C3%B4metro) rotativo virtual. Suporta eventos de mouse e touch até o momento.
 
 ## 🚀 Objetivo
 
-Este projeto foi criado com o objetivo de criar um componente reutilizável que simula um potenciômetro rotativo virtual. A ideia inicial era que este component recebesse dois valores de entrada (um mínimo e um máximo) e ao girar, ele dispararia eventos de "onChange" com o valor apontado relativo aos parâmetros de entrada.
-
-## 📌 Nota importante
-Este componente não possui uma fácil implementação em projetos de terceiros usando gerenciadores de pacotes. **Inicialmente, esse repositório funcionará apenas como portfólio e exposição da ideia.**
+Este projeto foi criado com o objetivo de criar um componente reutilizável que simula um potenciômetro rotativo virtual. A ideia inicial é que este component receba dois valores de entrada (um mínimo e um máximo) e ao girar, ele dispare eventos de "onChange" com o valor apontado relativo aos parâmetros de entrada.
 
 ## ✅ Features Funcionais
 - Interação usando mouse (Rotacionar)
