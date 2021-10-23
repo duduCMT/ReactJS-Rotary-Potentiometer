@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/github-page/static/css/main.5a082cd0.chunk.css",
-    "main.js": "/github-page/static/js/main.6a296f52.chunk.js",
-    "main.js.map": "/github-page/static/js/main.6a296f52.chunk.js.map",
-    "runtime-main.js": "/github-page/static/js/runtime-main.47fc3e9d.js",
-    "runtime-main.js.map": "/github-page/static/js/runtime-main.47fc3e9d.js.map",
-    "static/js/2.bc8efa72.chunk.js": "/github-page/static/js/2.bc8efa72.chunk.js",
-    "static/js/2.bc8efa72.chunk.js.map": "/github-page/static/js/2.bc8efa72.chunk.js.map",
-    "index.html": "/github-page/index.html",
-    "static/css/main.5a082cd0.chunk.css.map": "/github-page/static/css/main.5a082cd0.chunk.css.map",
-    "static/js/2.bc8efa72.chunk.js.LICENSE.txt": "/github-page/static/js/2.bc8efa72.chunk.js.LICENSE.txt",
-    "static/media/Body.7fed0364.svg": "/github-page/static/media/Body.7fed0364.svg",
-    "static/media/Knop.e243b811.svg": "/github-page/static/media/Knop.e243b811.svg"
+    "main.css": "/ReactJS-Rotary-Potentiometer/static/css/main.5a082cd0.chunk.css",
+    "main.js": "/ReactJS-Rotary-Potentiometer/static/js/main.6a296f52.chunk.js",
+    "main.js.map": "/ReactJS-Rotary-Potentiometer/static/js/main.6a296f52.chunk.js.map",
+    "runtime-main.js": "/ReactJS-Rotary-Potentiometer/static/js/runtime-main.f5f1d8d3.js",
+    "runtime-main.js.map": "/ReactJS-Rotary-Potentiometer/static/js/runtime-main.f5f1d8d3.js.map",
+    "static/js/2.9dfedcd0.chunk.js": "/ReactJS-Rotary-Potentiometer/static/js/2.9dfedcd0.chunk.js",
+    "static/js/2.9dfedcd0.chunk.js.map": "/ReactJS-Rotary-Potentiometer/static/js/2.9dfedcd0.chunk.js.map",
+    "index.html": "/ReactJS-Rotary-Potentiometer/index.html",
+    "static/css/main.5a082cd0.chunk.css.map": "/ReactJS-Rotary-Potentiometer/static/css/main.5a082cd0.chunk.css.map",
+    "static/js/2.9dfedcd0.chunk.js.LICENSE.txt": "/ReactJS-Rotary-Potentiometer/static/js/2.9dfedcd0.chunk.js.LICENSE.txt",
+    "static/media/Body.7fed0364.svg": "/ReactJS-Rotary-Potentiometer/static/media/Body.7fed0364.svg",
+    "static/media/Knop.e243b811.svg": "/ReactJS-Rotary-Potentiometer/static/media/Knop.e243b811.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.47fc3e9d.js",
-    "static/js/2.bc8efa72.chunk.js",
+    "static/js/runtime-main.f5f1d8d3.js",
+    "static/js/2.9dfedcd0.chunk.js",
     "static/css/main.5a082cd0.chunk.css",
     "static/js/main.6a296f52.chunk.js"
   ]
