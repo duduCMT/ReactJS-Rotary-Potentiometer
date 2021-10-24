@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ReactJS-Rotary-Potentiometer/static/css/main.f18b9ed5.chunk.css",
+    "main.css": "/ReactJS-Rotary-Potentiometer/static/css/main.24c2a95c.chunk.css",
     "main.js": "/ReactJS-Rotary-Potentiometer/static/js/main.43772717.chunk.js",
     "main.js.map": "/ReactJS-Rotary-Potentiometer/static/js/main.43772717.chunk.js.map",
     "runtime-main.js": "/ReactJS-Rotary-Potentiometer/static/js/runtime-main.f5f1d8d3.js",
@@ -8,7 +8,7 @@
     "static/js/2.9dfedcd0.chunk.js": "/ReactJS-Rotary-Potentiometer/static/js/2.9dfedcd0.chunk.js",
     "static/js/2.9dfedcd0.chunk.js.map": "/ReactJS-Rotary-Potentiometer/static/js/2.9dfedcd0.chunk.js.map",
     "index.html": "/ReactJS-Rotary-Potentiometer/index.html",
-    "static/css/main.f18b9ed5.chunk.css.map": "/ReactJS-Rotary-Potentiometer/static/css/main.f18b9ed5.chunk.css.map",
+    "static/css/main.24c2a95c.chunk.css.map": "/ReactJS-Rotary-Potentiometer/static/css/main.24c2a95c.chunk.css.map",
     "static/js/2.9dfedcd0.chunk.js.LICENSE.txt": "/ReactJS-Rotary-Potentiometer/static/js/2.9dfedcd0.chunk.js.LICENSE.txt",
     "static/media/Body.7fed0364.svg": "/ReactJS-Rotary-Potentiometer/static/media/Body.7fed0364.svg",
     "static/media/Knop.e243b811.svg": "/ReactJS-Rotary-Potentiometer/static/media/Knop.e243b811.svg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.f5f1d8d3.js",
     "static/js/2.9dfedcd0.chunk.js",
-    "static/css/main.f18b9ed5.chunk.css",
+    "static/css/main.24c2a95c.chunk.css",
     "static/js/main.43772717.chunk.js"
   ]
 }
