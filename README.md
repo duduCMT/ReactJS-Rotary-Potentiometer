@@ -1,6 +1,5 @@
 # Rotary Potentiometer - React Component
 [![](https://img.shields.io/badge/View-Veja%20voc%C3%AA%20mesmo-green)](https://duducmt.github.io/ReactJS-Rotary-Potentiometer/) 
-
 [![](https://img.shields.io/badge/license-Apache-blue)](https://github.com/duduCMT/ReactJS-Rotary-Potentiometer/blob/master/LICENSE) 
 [![](https://img.shields.io/badge/version-0.0.1-yellow)](#) 
 
